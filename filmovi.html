@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="bs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmovi - Cinemax</title>
+    <link rel="stylesheet" href="filmovi.css">
+</head>
+<body>
+
+    <nav class="meni">
+        <ul>
+            <li class="brand">
+                <div class="logo-krug">🎬</div>
+                <span class="brand-naziv">Cinemax</span>
+            </li>
+            <li><a href="filmovi.html" class="aktivno">Filmovi</a></li>
+            <li><a href="raspored.html">Raspored</a></li>
+            <li><a href="sala.html">Sala</a></li>
+        </ul>
+    </nav>
+
+    <main class="wrapper">
+
+        <!-- LEGENDA -->
+        <div class="legenda">
+            <h2>Legenda</h2>
+            <div class="legenda-stavke">
+                <div class="legenda-item">
+                    <span class="kvadrat bijeli"></span>
+                    <span>Trenutno u kinima</span>
+                </div>
+                <div class="legenda-item">
+                    <span class="kvadrat plavi"></span>
+                    <span>Uskoro u kinima</span>
+                </div>
+                <div class="legenda-item">
+                    <span class="kvadrat sivi"></span>
+                    <span>Više nije u ponudi</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- AKCIJA -->
+        <section id="akcija">
+            <h2>Akcija</h2>
+            <div class="film-grid">
+
+                <div class="film-kartica trenutno">
+                    <img src="https://images.unsplash.com/photo-1718237056316-0412a663d21a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=400">
+                    <div class="film-info">
+                        <div class="film-naziv">Mission impossible 8</div>
+                        <div class="film-dno">
+                            <span class="trajanje">140 min</span>
+                            <button class="dugme">Rezerviši</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-kartica uskoro">
+                    <img src="https://images.unsplash.com/photo-1676919391895-619bef477c34?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=400">
+                    <div class="film-info">
+                        <div class="film-naziv">Fast X: Part 2</div>
+                        <div class="film-dno">
+                            <span class="trajanje">135 min</span>
+                            <button class="dugme">Rezerviši</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-kartica trenutno">
+                    <img src="https://images.unsplash.com/photo-1671647694655-95abb95fe5fc?w=400">
+                    <div class="film-info">
+                        <div class="film-naziv">John Wick 5</div>
+                        <div class="film-dno">
+                            <span class="trajanje">145 min</span>
+                            <button class="dugme">Rezerviši</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- DRAMA -->
+        <section id="drama">
+            <h2>Drama</h2>
+            <div class="film-grid">
+
+                <div class="film-kartica trenutno">
+                    <img src="https://images.unsplash.com/photo-1765510296004-614b6cc204da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=400">
+                    <div class="film-info">
+                        <div class="film-naziv">The holdovers</div>
+                        <div class="film-dno">
+                            <span class="trajanje">180 min</span>
+                            <button class="dugme">Rezerviši</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-kartica trenutno">
+                    <img src="https://images.unsplash.com/photo-1770982726697-309881d78cc1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=400">
+                    <div class="film-info">
+                        <div class="film-naziv">Killer of the flower moon</div>
+                        <div class="film-dno">
+                            <span class="trajanje">141 min</span>
+                            <button class="dugme">Rezerviši</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-kartica nije">
+                    <img src="https://images.unsplash.com/photo-1771255782749-4139b2ec6cfa?w=400">
+                    <div class="film-info">
+                        <div class="film-naziv">Sunset and wine</div>
+                        <div class="film-dno">
+                            <span class="trajanje">160 min</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- KOMEDIJA -->
+        <section id="komedija">
+            <h2>Komedija</h2>
+            <div class="film-grid">
+
+                <div class="film-kartica trenutno">
+                    <img src="https://images.unsplash.com/photo-1760907428462-7410092c1852?w=400">
+                    <div class="film-info">
+                        <div class="film-naziv">Wonka</div>
+                        <div class="film-dno">
+                            <span class="trajanje">105 min</span>
+                            <button class="dugme">Rezerviši</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-kartica trenutno">
+                    <img src="https://images.unsplash.com/photo-1593427934550-4742b652ac84?w=400">
+                    <div class="film-info">
+                        <div class="film-naziv">Migration</div>
+                        <div class="film-dno">
+                            <span class="trajanje">117 min</span>
+                            <button class="dugme">Rezerviši</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-kartica uskoro">
+                    <img src="https://images.unsplash.com/photo-1690050527414-19742b8adc84?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=400">
+                    <div class="film-info">
+                        <div class="film-naziv">Anyone but you</div>
+                        <div class="film-dno">
+                            <span class="trajanje">107 min</span>
+                            <button class="dugme">Rezerviši</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ANIMIRANI -->
+        <section id="animirani">
+            <h2>Animirani</h2>
+            <div class="film-grid">
+
+                <div class="film-kartica trenutno">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPpWEXLJnvmDlay4znbkQlM1YVsTOJJ77jvw&s">
+                    <div class="film-info">
+                        <div class="film-naziv">Toy story</div>
+                        <div class="film-dno">
+                            <span class="trajanje">131 min</span>
+                            <button class="dugme">Rezerviši</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-kartica uskoro">
+                    <img src="https://i.pinimg.com/1200x/5f/d9/dc/5fd9dcbe8008428f85eb2cf42a5b91be.jpg">
+                    <div class="film-info">
+                        <div class="film-naziv">Spiderman</div>
+                        <div class="film-dno">
+                            <span class="trajanje">200 min</span>
+                            <button class="dugme">Rezerviši</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="film-kartica nije">
+                    <img src="https://images.unsplash.com/photo-1765904999396-907f53d80084?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=400">
+                    <div class="film-info">
+                        <div class="film-naziv">Wish</div>
+                        <div class="film-dno">
+                            <span class="trajanje">122 min</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+</body>
+</html>
