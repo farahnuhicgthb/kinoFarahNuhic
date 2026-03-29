@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1f1a1c;
+    min-width: 300px;
+}
+
+.meni {
+    width: 100%;
+    background-color: #1d181a;
+    border-bottom: 3px solid #e92b2b;
+}
+
+.meni ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    padding: 18px 28px;
+    flex-wrap: nowrap;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-right: 10px;
+}
+
+.logo-krug {
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    background-color: #ef2a2a;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+}
+
+.brand-naziv {
+    color: white;
+    font-size: 30px;
+}
+
+.meni a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 18px;
+    display: inline-block;
+    font-size: 17px;
+}
+
+.meni a.aktivno {
+    background-color: #ef2a2a;
+    font-weight: bold;
+}
+
+.wrapper {
+    max-width: 1180px;
+    margin: 18px auto 40px auto;
+    background-color: #f3f3f3;
+}
+
+.hero {
+    padding: 24px 18px 0 18px;
+}
+
+.hero-box {
+    background-color: #eb2c2c;
+    color: white;
+    text-align: center;
+    padding: 48px 20px 42px 20px;
+}
+
+.hero-box h1 {
+    font-size: 56px;
+    margin-bottom: 18px;
+    font-weight: bold;
+}
+
+.hero-box p {
+    font-size: 22px;
+    max-width: 900px;
+    margin: 0 auto 16px auto;
+}
+
+.mini-dugme {
+    display: inline-block;
+    background-color: rgba(176, 0, 0, 0.35);
+    color: white;
+    border-radius: 18px;
+    padding: 8px 26px;
+    margin-bottom: 24px;
+    font-weight: bold;
+}
+
+.glavno-dugme {
+    display: inline-block;
+    text-decoration: none;
+    color: #222;
+    background-color: #f1f1f1;
+    border: 2px solid #bfbfbf;
+    border-radius: 28px;
+    padding: 18px 34px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.hero-slika img {
+    width: 100%;
+    height: 330px;
+    object-fit: cover;
+    display: block;
+}
+
+@media (max-width: 900px) {
+    .meni ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .hero-box h1 {
+        font-size: 38px;
+    }
+
+    .hero-box p {
+        font-size: 18px;
+    }
+}

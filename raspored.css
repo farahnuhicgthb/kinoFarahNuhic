@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1f1a1c;
+    min-width: 300px;
+}
+
+.meni {
+    width: 100%;
+    background-color: #1d181a;
+    border-bottom: 3px solid #e92b2b;
+}
+
+.meni ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    padding: 18px 28px;
+    flex-wrap: nowrap;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-right: 10px;
+}
+
+.logo-krug {
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    background-color: #ef2a2a;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+}
+
+.brand-naziv {
+    color: white;
+    font-size: 30px;
+}
+
+.meni a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 18px;
+    display: inline-block;
+    font-size: 17px;
+}
+
+.meni a.aktivno {
+    background-color: #ef2a2a;
+    font-weight: bold;
+}
+
+.wrapper {
+    max-width: 1180px;
+    margin: 18px auto 40px auto;
+    background-color: #f3f3f3;
+    display: grid;
+    grid-template-columns: 220px 1fr;
+    gap: 30px;
+    padding: 26px 18px 34px 18px;
+}
+
+.naslov-blok h2 {
+    font-size: 34px;
+    display: inline-block;
+    border-bottom: 4px solid #ef2a2a;
+    padding-bottom: 4px;
+}
+
+.tabela-wrapper {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 14px;
+    overflow: hidden;
+}
+
+thead {
+    background: linear-gradient(to right, #05132c, #071b3d);
+    color: white;
+}
+
+th, td {
+    padding: 18px 16px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    font-size: 16px;
+}
+
+.krug {
+    display: inline-flex;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background-color: #ef2a2a;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+@media (max-width: 900px) {
+    .meni ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .wrapper {
+        grid-template-columns: 1fr;
+    }
+}
